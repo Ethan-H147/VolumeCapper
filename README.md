@@ -25,8 +25,9 @@ A lightweight Windows system tray app that prevents your volume from exceeding a
 
 ### Option C – Publish a single .exe
 
-cd VolumeCapper
-dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true
+`cd VolumeCapper`
+
+`dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true`
 
 The .exe will be in bin/Release/net8.0-windows/win-x64/publish/.
 
